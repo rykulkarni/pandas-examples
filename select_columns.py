@@ -4,8 +4,8 @@ How to select specific columns and create new data frame
 '''
 import pandas as pd
 
-# read the excel file. 
-df = pd.read_excel ('sample.xlsx')
+# read the csv file. 
+df = pd.read_csv ('sample.csv')
 print (df)
 '''
        Name            Email        Phone     City
